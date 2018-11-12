@@ -1,0 +1,29 @@
+{
+	"name": "hypejunction/hypesatis",
+	"type": "elgg-plugin",
+	"description": "Elgg-based satis composer repository",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "satis", "composer"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeSatis"
+	},
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "~1.0",
+		"composer/satis": "^1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
