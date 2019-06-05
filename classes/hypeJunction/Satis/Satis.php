@@ -14,7 +14,7 @@ class Satis {
 			'archive' => [
 				'directory' => 'packages',
 				'absolute-directory' => elgg_get_data_path() . 'satis/packages',
-				'format' => 'tar',
+				'format' => 'zip',
 				'prefix-url' => elgg_normalize_url('satis'),
 				'skip-dev' => true,
 			],
