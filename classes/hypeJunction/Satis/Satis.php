@@ -17,6 +17,8 @@ class Satis {
 				'format' => 'zip',
 				'prefix-url' => elgg_normalize_url('satis'),
 				'skip-dev' => true,
+				'override-dist-type' => true,
+    			'reachive' => true,
 			],
 			'output-html' => false,
 			'require-all' => true,
