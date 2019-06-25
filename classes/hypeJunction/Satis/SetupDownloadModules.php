@@ -14,6 +14,8 @@ class SetupDownloadModules {
 			'enabled' => true,
 			'position' => 'sidebar',
 			'priority' => 200,
+			'view' => 'post/modules/download/satis',
+			'label' => elgg_echo('downloads:satis:install'),
 		];
 
 		return $modules;
