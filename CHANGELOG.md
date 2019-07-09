@@ -1,3 +1,13 @@
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/hypeJunction/Elgg3-hypeSatis/compare/1.0.4...1.0.5) (2019-07-09)
+
+
+### Bug Fixes
+
+* **builds:** clean up build process, get rid of programmatic rebuilds ([65d4b31](https://github.com/hypeJunction/Elgg3-hypeSatis/commit/65d4b31))
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/hypeJunction/Elgg3-hypeSatis/compare/1.0.3...1.0.4) (2019-06-25)
 
