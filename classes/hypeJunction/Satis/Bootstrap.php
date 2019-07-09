@@ -37,8 +37,6 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_plugin_hook_handler('commands', 'cli', RegisterCliCommands::class);
 
 		elgg_register_plugin_hook_handler('modules', 'object:download', SetupDownloadModules::class);
-
-		elgg_register_plugin_hook_handler('release', 'github', TriggerBuild::class);
 	}
 
 	/**

@@ -17,6 +17,8 @@ You may want to configure a cron job to run this command to pull in new versions
 Client Setup
 ============
 
+Clients are users accessing packages in the your satis repository.
+
 First, add username and password of the Elgg account to the client server:
 
 ```sh

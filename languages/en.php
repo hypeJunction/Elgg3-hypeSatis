@@ -20,5 +20,6 @@ return [
 </code></pre>
 	',
 
-
+	'satis:build:queued' => 'Satis rebuild is running in the background',
+	'satis:build' => 'Rebuild Satis',
 ];

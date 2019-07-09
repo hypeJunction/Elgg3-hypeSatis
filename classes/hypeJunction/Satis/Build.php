@@ -16,8 +16,16 @@ class Build {
 		$config_file = Paths::sanitize($dataroot) . 'satis.json';
 		$output_dir = Paths::sanitize($dataroot) . 'satis';
 
-		$input = new StringInput("build $config_file $output_dir");
+		$command = "build $config_file $output_dir --no-interaction";
+
+		$input = new StringInput($command);
+
 		$app = new Application();
-		$app->run($input);
+
+		try {
+			$app->run($input);
+		} catch (\Exception $ex) {
+			elgg_log($ex, 'error');
+		}
 	}
 }
